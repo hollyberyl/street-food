@@ -5,10 +5,40 @@
 		<meta   name = "viewport"   content = "width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href='bootstrap-3.3.7-dist/css/bootstrap.css'>
 	<link rel="stylesheet" href="main.css">
+	<link href="font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css" />
 
 </head>
 
 <body>
+
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="#">London's Street Eats</a>
+  </div>
+
+  <div class="collapse navbar-collapse">
+  <ul class="nav navbar-nav navbar-left">
+      <li><a href="#markets">Markets</a></li>
+      <li><a href="#food">Food</a></li>
+       <li><a href="#people">People</a></li>
+    </ul>
+    <!-- social media icons -->
+       <ul class="nav navbar-nav navbar-right social">
+                <li><a href="#"><i class="fa fa-lg fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-lg fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-lg fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
 
 	<div class='jumbotron'>
 		<div class="container">
@@ -16,7 +46,6 @@
 		<div class="col-md-8">
 		<h1>London's Street Eats</h1></div>
 		<div class="col-md-4">
-		<img src='images/sandwich.png' class="img-responsive">
 </div>
 		</div>
 
@@ -29,39 +58,52 @@
 	</div>
 
 	<div class="container">
-		<div id="buzz">
+		<div id="markets">
 			<h2><small>The Markets</small><br />Top markets to visit</h2>
 			<div>
 
 			<div class="row">
 			<div class="col-md-4">
-				<p>Borough Market</p>
-				<small>Monday-Tuesday: Limited market</small>
-				<small>Wednesday-Saturday: Full market</small>
+			<div class="card">
+			<img class="card-img-top" src="images/borough.jpg" alt="Card image cap">
+			<div class="card-block">
+			<h3 class="card-title">Borough Market</h3>
+			<p class="card-text">It’s worth remembering that this giant of London’s food scene is good for more than speciality carrots – it also offers lunchtime food-to-go.</p>
+			<a href="#" class="btn btn-primary">More info</a>
+			</div>
+			</div>
 			</div>
 			<div class="col-md-4">
-				<p>Maltby Street Market</p>
-			</div>
+			<div class="card">
+			<img class="card-img-top" src="images/maltby.jpg" alt="Card image cap">
+			<div class="card-block">
+			<h3 class="card-title">Maltby Street Market</h3>
+			<p class="card-text">A young contender to nearby Borough Market’s crown, energetic Maltby Street is a hive of foodie activity of a Saturday and Sunday.</p>
+        <a href="#" class="btn btn-primary">More info</a>
+      </div>
+    </div>
+  </div>
+    <div class="col-md-4">
+    <div class="card">
+    <img class="card-img-top" src="images/broadway.jpg" alt="Card image cap">
+      <div class="card-block">
+        <h3 class="card-title">Broadway Market</h3>
+        <p class="card-text">A changing selection of street food is on hand to keep you well-fueled while you browse Broadway Market’s artisan food stalls.</p>
+        <a href="#" class="btn btn-primary">More info</a>
+</div>
+</div>
+</div>
+</div>
 
-			<div class="col-md-4">
-				<p>Broadway Market</p>
-			</div> 
-			</div>
-		</div>
-
-
-
-		<div id="mission">
+		<div id="food">
 			<h2><small>The Food</small><br />Discover the latest eats on the streets</h2>
-		
-			<div id='social-buttons'>
-				<button class='btn btn-lg btn-twitter'>Twitter</button>
-				<button class='btn btn-lg btn-facebook'>Facebook</button>
-				<button class='btn btn-lg btn-pinterest'>Pinterest</button>
-			</div>
 
 
+		<div id="people">
+			<h2><small>The People</small><br />The word on the streets</h2>
 		</div>
+<script src="jquery-3.1.1.min.js"></script>
+<script src="bootstrap.min.js"></script>
 
 	</body>
 	<html>

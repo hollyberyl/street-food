@@ -9,7 +9,27 @@
 }
 
 .jumbotron h1 {
-  font-family: 'Vast Shadow', cursive;
+  font-family: 'Avenir', cursive;
   color: white;
+  text-align: center;
   margin-bottom: 1em;
+}
+
+.navbar {
+	margin: 0;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #777;
+}
+.social .fa-facebook:hover {
+    color: #4060A5;
+}
+
+.social .fa-twitter:hover {
+    color: #00ABE3;
+}
+
+.social .fa-instagram:hover {
+    color: #cd486b;
 }
